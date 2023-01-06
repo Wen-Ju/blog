@@ -89,11 +89,11 @@ upload:
     # 本地文件存储路径
     path: /usr/local/upload/
   oss:
-    url: guli-file210224demo.oss-cn-beijing.aliyuncs.com
+    url: https://blog-wenju.oss-cn-beijing.aliyuncs.com/
     endpoint: oss-cn-beijing.aliyuncs.com
     accessKeyId: LTAI5tAvc9L3dXX167BEh7eV
     accessKeySecret: 1ypcMPMEAddJ11cUf8oMpTuCjLZSQF
-    bucketName: guli-file210224demo
+    bucketName: blog-wenju
   cos:
     url: http://Bucket域名/
     secretId: cos的secretId

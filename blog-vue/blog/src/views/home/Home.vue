@@ -263,7 +263,7 @@ export default {
     init() {
       document.title = this.blogInfo.websiteConfig.websiteName;
       // 一言Api进行打字机循环输出效果
-      fetch("https://v1.hitokoto.cn?c=i")
+      fetch("https://v1.hitokoto.cn?c=k")
         .then(res => {
           return res.json();
         })
