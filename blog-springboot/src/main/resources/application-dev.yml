@@ -22,12 +22,12 @@ datasource:
     connection-test-query: SELECT 1
 # redis配置
 redis:
-  host: 101.43.220.139
+  host: 43.138.24.182
   port: 6379
   password: WSYju7236100
 # mq配置
 rabbitmq:
-  host: 101.43.220.139
+  host: 43.138.24.182
   port: 5672
   username: guest
   password: guest
@@ -40,7 +40,7 @@ rabbitmq:
 # es配置 若搜索模式为mysql可删除
 elasticsearch:
   rest:
-    uris: 101.43.220.139:9200
+    uris: 43.138.24.182:9200
 # 邮箱配置
 mail:
   host: smtp.qq.com
@@ -95,7 +95,7 @@ upload:
 
 # 网站前台域名（邮件通知用）
 website:
-  url: http://101.43.220.139
+  url: http://wenju.work
 
 #第三方配置信息
 qq:
