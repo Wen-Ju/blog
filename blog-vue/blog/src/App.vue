@@ -46,7 +46,7 @@ export default {
     // 获取博客信息
     this.getBlogInfo();
     // 上传访客信息
-    this.axios.post("/api/report");
+    this.axios.get("/report");
   },
   components: {
     TopNavBar,

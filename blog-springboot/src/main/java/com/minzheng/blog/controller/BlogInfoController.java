@@ -142,7 +142,7 @@ public class BlogInfoController {
      *
      * @return {@link Result}
      */
-    @PostMapping("/report")
+    @GetMapping("/report")
     public Result<?> report() {
         blogInfoService.report();
         return Result.ok();

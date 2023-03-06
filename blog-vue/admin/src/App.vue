@@ -13,7 +13,7 @@ export default {
       generaMenu();
     }
     // 上传访客信息
-    this.axios.post("/api/report");
+    this.axios.get("/report");
   }
 };
 </script>
